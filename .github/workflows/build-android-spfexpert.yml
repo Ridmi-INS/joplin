@@ -29,8 +29,7 @@ jobs:
 
       - name: Run Yarn Install
         run: |
-          cd ./packages/app-mobile/
-          npm i -g corepack
+          cd ./packages/app-mobile/          
           yarn install
       - name: Build application
         run: |
